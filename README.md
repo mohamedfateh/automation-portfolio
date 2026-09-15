@@ -23,3 +23,7 @@ For a cleaner URL, rename the repository to `mohamedfateh.github.io`; GitHub Pag
 ## Lead generation
 
 The website uses direct WhatsApp, email, LinkedIn and phone CTAs. The enquiry form is serverless: it creates a pre-filled email in the visitor's email client, so GitHub Pages hosting is enough.
+
+
+## Brand positioning
+Primary positioning: **Industrial Automation & SCADA Engineer**. The website leads with factory automation, PLC/SCADA, networks, instrumentation and commissioning. Electrical controls, mechanical CAD and technical sourcing are intentionally shown as supporting services so the brand stays focused.

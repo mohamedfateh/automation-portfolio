@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Mohamed Alfateh industrial automation mark</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1b26"/>
+      <stop offset="1" stop-color="#071019"/>
+    </linearGradient>
+  </defs>
+  <rect x="34" y="34" width="444" height="444" rx="92" fill="url(#bg)" stroke="#25516a" stroke-width="10"/>
+  <path d="M118 342V168h70l68 124 68-124h70v174" fill="none" stroke="#38a7ce" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M118 342h70l68-124 68 124h70" fill="none" stroke="#45c490" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#f1f7fa">
+    <circle cx="118" cy="168" r="11"/>
+    <circle cx="394" cy="168" r="11"/>
+    <circle cx="256" cy="292" r="11"/>
+  </g>
+  <g fill="#45c490" stroke="#f1f7fa" stroke-width="5">
+    <circle cx="188" cy="342" r="14"/>
+    <circle cx="324" cy="342" r="14"/>
+  </g>
+</svg>

@@ -116,6 +116,53 @@
   </div>
 </section>
 
+
+<section id="chocolate">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-kicker">Process routing case study</div>
+        <h2>Chocolate Distribution Automation</h2>
+      </div>
+      <p>Automation concept for distributing chocolate from multiple supply tanks to downstream production users through a shared piping and manifold network.</p>
+    </div>
+
+    <article class="flagship reveal">
+      <div class="flag-top">
+        <div>
+          <div class="eyebrow">Food Manufacturing · Routing / Interlocks</div>
+          <h3>Turning a complex piping network into safe, understandable route control</h3>
+          <p>The physical system uses five chocolate supply tanks and a multi-branch distribution network feeding production equipment. The control challenge is safe source-to-destination selection: checking availability, preventing conflicting routes, applying pump/valve permissives and giving operators clear route feedback.</p>
+        </div>
+        <div class="project-meta">
+          <div><b>Sources</b><span>5 chocolate supply tanks</span></div>
+          <div><b>Process</b><span>Multi-destination distribution</span></div>
+          <div><b>Control focus</b><span>Routing · Interlocks · Permissives</span></div>
+          <div><b>Operator layer</b><span>HMI route selection & status</span></div>
+        </div>
+      </div>
+
+      <div class="flowline">
+        <span>Source Tank</span><i>→</i><span>Route Selection</span><i>→</i><span>Conflict Check</span><i>→</i><span>Pump / Valve Permissives</span><i>→</i><span>Production User</span>
+      </div>
+
+      <div class="gallery" style="grid-template-columns:1fr;margin-top:16px">
+        <figure>
+          <img data-lightbox src="assets/chocolate-distribution.svg" alt="Chocolate distribution automation architecture">
+          <figcaption>Sanitized automation architecture derived from the multi-tank / multi-user distribution layout</figcaption>
+        </figure>
+      </div>
+
+      <div class="case-points">
+        <div class="case-point"><b>Multi-source routing</b><span>Five chocolate supply tanks are treated as selectable sources feeding a shared distribution network.</span></div>
+        <div class="case-point"><b>Conflict prevention</b><span>Route logic is structured around availability and interlocks so incompatible simultaneous paths cannot be commanded.</span></div>
+        <div class="case-point"><b>Operator control</b><span>The HMI concept exposes source/destination selection, route readiness, active state and blocked-route conditions clearly.</span></div>
+        <div class="case-point"><b>Physical-to-control mapping</b><span>The piping/manifold drawings are translated into maintainable control objects instead of hard-coded one-off commands.</span></div>
+      </div>
+    </article>
+  </div>
+</section>
+
 <section id="capabilities">
   <div class="wrap">
     <div class="section-head reveal"><div><div class="section-kicker">Hands-on technical depth</div><h2>Instrumentation, drives, communication & field control</h2></div><p>This section makes the portfolio more credible. It shows that the work is not limited to ladder logic or graphics: the engineering extends to actual sensors, drives, valve systems and industrial networks.</p></div>
@@ -170,7 +217,7 @@
       <article class="project-card reveal"><div class="thumb"><img src="assets/wind-pso.png" alt="Wind turbine PSO"></div><div class="body"><div class="kind">Control Optimization</div><h3>Wind Turbine PSO-PID Pitch Control</h3><p>MATLAB/Simulink pitch-controller optimization using Particle Swarm Optimization with response-error and overshoot based fitness evaluation.</p><div class="tools"><span>MATLAB</span><span>Simulink</span><span>PSO</span><span>PID</span></div></div></article>
       <article class="project-card reveal"><div class="thumb" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,#112b3a,#071018);font-size:47px;font-weight:950;color:#38a7ce">FOTA</div><div class="body"><div class="kind">Embedded Communications</div><h3>Vehicle FOTA & Diagnostic System</h3><p>STM32F401 + ESP8266 firmware-update architecture covering MQTT/Wi-Fi, UART transfer, acknowledgements/retransmission, flash programming, verification and fallback strategy.</p><div class="tools"><span>STM32</span><span>ESP8266</span><span>MQTT</span><span>UART</span><span>Bootloader</span></div></div></article>
       <article class="project-card reveal"><div class="thumb"><img src="assets/friday-cip-plant.png" alt="CIP system"></div><div class="body"><div class="kind">Process Automation</div><h3>CIP Automation Subsystem</h3><p>Cleaning-in-place sequences and visualization covering chemical/water tanks, supply/return routing, pumps, stage management, conductivity and temperature monitoring.</p><div class="tools"><span>Sequences</span><span>Valves</span><span>Pumps</span><span>Conductivity</span><span>WinCC</span></div></div></article>
-      <article class="project-card reveal"><div class="thumb"><img src="assets/panel-vfd.jpg" alt="Industrial controls"></div><div class="body"><div class="kind">Routing & Interlocks</div><h3>Chocolate Distribution System</h3><p>Machine/production routing logic focused on safe source-destination selection, simultaneous-use rules, interlocking and operator control in the wider production system.</p><div class="tools"><span>S7-1200</span><span>Routing</span><span>Interlocks</span><span>HMI</span></div></div></article>
+      <article class="project-card reveal"><div class="thumb"><img src="assets/chocolate-distribution.svg" alt="Chocolate distribution routing architecture"></div><div class="body"><div class="kind">Process Routing & Interlocks</div><h3>Chocolate Distribution Automation</h3><p>Multi-source routing system connecting five chocolate supply tanks to downstream production users through a shared manifold. Engineering focus: source/destination selection, conflict prevention, permissives and operator route feedback.</p><div class="tools"><span>5 Source Tanks</span><span>Routing</span><span>Interlocks</span><span>Permissives</span><span>HMI</span></div></div></article>
     </div>
   </div>
 </section>

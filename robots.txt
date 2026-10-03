@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mohamedfateh.github.io/automation-portfolio/sitemap.xml

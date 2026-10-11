@@ -476,3 +476,17 @@ body{
   }
   .full{grid-column:auto}
 }
+
+/* Chocolate project screenshots: preserve full screens and keep captions readable. */
+#chocolate .chocolate-gallery-intro{padding:28px 33px 20px}
+#chocolate .chocolate-gallery-intro h3{margin:8px 0}
+#chocolate .chocolate-gallery-intro p{color:var(--muted);margin:0}
+#chocolate .chocolate-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding:0 33px 28px;background:transparent}
+#chocolate .chocolate-gallery figure{min-width:0;min-height:0;border:1px solid #19384a;border-radius:10px;display:flex;flex-direction:column}
+#chocolate .chocolate-gallery img{height:auto;aspect-ratio:16/10;object-fit:contain;cursor:zoom-in}
+#chocolate .chocolate-gallery figure:hover img{transform:none;opacity:.9}
+#chocolate .chocolate-gallery figcaption{position:static;background:#091720;padding:14px 16px;line-height:1.5;flex:1}
+@media(max-width:900px){
+  #chocolate .chocolate-gallery-intro{padding:24px 19px 18px}
+  #chocolate .chocolate-gallery{padding:0 19px 24px}
+}
